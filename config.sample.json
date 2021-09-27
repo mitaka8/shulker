@@ -1,0 +1,16 @@
+[
+    {
+        "left": "Minecraft",
+        "left_config": {
+            "rcon_host": "127.0.0.1",
+            "rcon_pass": "password",
+            "log_file": "file:///opt/minecraft/vanilla/logs/latest.log",
+            "name": "MinecraftServerName"
+        },
+        "right": "IRC",
+        "right_config": {
+            "dest": "ircs://bot:saslpassword@hostname:6697/#chan",
+            "name": "IRCServerame"
+        }
+    }
+]
