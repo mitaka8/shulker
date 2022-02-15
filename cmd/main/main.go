@@ -13,6 +13,7 @@ import (
 	_ "gitlab.com/mitaka8/shulker/console"
 	_ "gitlab.com/mitaka8/shulker/discord"
 	_ "gitlab.com/mitaka8/shulker/irc"
+	_ "gitlab.com/mitaka8/shulker/matrix"
 	_ "gitlab.com/mitaka8/shulker/minecraft"
 	"gitlab.com/mitaka8/shulker/registry"
 )

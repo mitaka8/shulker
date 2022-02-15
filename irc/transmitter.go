@@ -74,6 +74,7 @@ func (i *IrcTransmitter) Start() error {
 		i.chatMessages <- NewIrcChatMessage(i.from, nickFromIdent(e.Source), e.Message())
 
 	})
+
 	return nil
 
 }

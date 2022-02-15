@@ -8,6 +8,7 @@ import (
 )
 
 func NewFromConfig(c []registry.Config) {
+
 	var wg sync.WaitGroup
 	for i, bridge := range c {
 		if registry.IsTransmitter(bridge.Left) && registry.IsReceiver(bridge.Right) {
